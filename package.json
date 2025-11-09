@@ -1,0 +1,26 @@
+{
+  "name": "tcp-chat-server",
+  "version": "1.0.0",
+  "description": "A simple TCP socket chat server with multiple client support",
+  "main": "chat-server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node chat-server.js",
+    "server": "node chat-server.js",
+    "client": "node test-client.js",
+    "dev": "node chat-server.js"
+  },
+  "keywords": [
+    "chat",
+    "tcp",
+    "socket",
+    "server",
+    "real-time",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
